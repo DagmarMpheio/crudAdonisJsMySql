@@ -1,0 +1,6 @@
+1 - adonis new project - criar projecto
+2 - adonis serve / a- executar o projecto
+3- adonis key:generate - gerar a chave de auntenticacao da app
+4 - adonis make:model Contact -mc - gerar uma migration, modelo e controller
+5-yarn add mysql - instalar mysql
+

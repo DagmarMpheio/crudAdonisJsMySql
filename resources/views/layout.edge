@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {{-- bootstrap style sheet script --}}
+    <!--{{ style('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css') }}-->
+    {{style('css/bootstrap.min.css')}}
+    <title>Adonis 4.0 Blog</title>
+    <!--Icone do site-->
+    <link rel="icon" href="img/icone.png">
+</head>
+<body>
+@include('inc/navbar')
+<div class="container">
+    @!section('content')
+</div>
+
+{{-- bootstrap javascript scripts --}}
+{{script('js/jquery.min.js')}}
+{{script('js/popper.min.js')}}
+{{script('js/bootstrap.min.js')}}
+<!--{{ script('https://code.jquery.com/jquery-3.2.1.slim.min.js') }}
+{{ script('https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js') }}
+{{ script('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js') }}-->
+</body>
+</html>
